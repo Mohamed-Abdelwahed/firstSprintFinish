@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 601px) and (max-width: 992px){
+      /* start nav responsive */
+   .header__responsive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.nav__burger div{
+        font-size: 4rem;
+        cursor: pointer;
+}
+.img__logo{
+    width: 8rem;
+
+}
+.img__logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+   /* end nav responsive */
+    .page__aside{
+        display: none !important;
+       }
+        body{
+        justify-content: center;
+       }
+       main{
+         width: 100%;
+       }
+       
+    .cards--single{
+        width: calc(49%) ;
+        }
+        
+      
+}
